@@ -1,0 +1,14 @@
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\bin\Debug\net10.0\Bai1_QuanLySinhVien.exe
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\bin\Debug\net10.0\Bai1_QuanLySinhVien.deps.json
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\bin\Debug\net10.0\Bai1_QuanLySinhVien.runtimeconfig.json
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\bin\Debug\net10.0\Bai1_QuanLySinhVien.dll
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\bin\Debug\net10.0\Bai1_QuanLySinhVien.pdb
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\Bai1_QuanLySinhVien.GeneratedMSBuildEditorConfig.editorconfig
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\Bai1_QuanLySinhVien.AssemblyInfoInputs.cache
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\Bai1_QuanLySinhVien.AssemblyInfo.cs
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\Bai1_QuanLySinhVien.csproj.CoreCompileInputs.cache
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\Bai1_QuanLySinhVien.dll
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\refint\Bai1_QuanLySinhVien.dll
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\Bai1_QuanLySinhVien.pdb
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\Bai1_QuanLySinhVien.genruntimeconfig.cache
+D:\học C#\Bai1_QuanLySinhVien\Bai1_QuanLySinhVien\obj\Debug\net10.0\ref\Bai1_QuanLySinhVien.dll
