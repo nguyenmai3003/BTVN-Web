@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Product Details";
+    var product = ViewBag.Product as MyAppMVC.Models.Product;
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="@product.Image" style="width:100%;" />
+    </div>
+    <div class="col-md-8">
+        <h2>@product.Name</h2>
+        <p>
+            <span class="text-muted"><del>@String.Format("{0:N0}", product.Price)</del></span>
+            <strong class="text-danger"> @String.Format("{0:N0}", product.SalePrice)đ</strong>
+        </p>
+        <p>
+            <strong>Mô Tả:</strong>
+            <br />
+            @product.Description
+        </p>
+        <p>
+            <strong>Trạng thái:</strong> @(product.Status?"Còn hàng":"Hết hàng")
+        </p>
+        <p>
+            <strong>Ngày đăng:</strong> @product.CreatedAt.ToString("dd/MM/yyyy HH:mm:ss")
+        </p>
+        <p>
+            <a href="@Url.Action("Index","Product")" class="btn btn-default">Về danh sách</a>
+        </p>
+    </div>
+</div>

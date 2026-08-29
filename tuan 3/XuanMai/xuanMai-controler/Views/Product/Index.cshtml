@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "Products";
+    var categories = ViewBag.Categories as List<MyAppMVC.Models.Category>;
+    var products = ViewBag.Products as List<MyAppMVC.Models.Product>;
+    int currentCategory = ViewBag.CurrentCategoryId ?? 0;
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h4>DANH MỤC</h4>
+        <ul class="list-group">
+            <li class="list-group-item @(currentCategory==0?"active":"")">
+                <a href="@Url.RouteUrl("product_index")">Tất cả</a>
+            </li>
+            @foreach(var cat in categories)
+            {
+                <li class="list-group-item @(currentCategory==cat.Id?"active":"")">
+                    <a href="@Url.RouteUrl("product_index", new { categoryId = cat.Id })">@cat.Name</a>
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-9">
+        <h3>Danh sách sản phẩm</h3>
+        <div class="row">
+            @foreach(var p in products)
+            {
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="@p.Image" style="width:100%;height:180px;object-fit:cover" />
+                        <div class="caption">
+                            <h4>@p.Name</h4>
+                            <p>
+                                <span class="text-muted"><del>@String.Format("{0:N0}", p.Price)</del></span>
+                                <strong class="text-success"> @String.Format("{0:N0}", p.SalePrice)đ</strong>
+                            </p>
+                            <p>
+                                <a asp-route="product_details" asp-route-id="@p.Id" class="btn btn-success btn-block">Chi tiết</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

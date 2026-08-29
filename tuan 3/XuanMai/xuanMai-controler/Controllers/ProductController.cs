@@ -1,0 +1,64 @@
+using Microsoft.AspNetCore.Mvc;
+using MyAppMVC.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace MyAppMVC.Controllers
+{
+    [Route("san-pham")]
+    public class ProductController : Controller
+    {
+        [HttpGet("", Name = "product_index")]
+        public IActionResult Index(int? categoryId)
+        {
+            // sample categories
+            List<Category> categories = new List<Category>
+            {
+                new Category{ Id = 1, Name = "Quần Áo" },
+                new Category{ Id = 2, Name = "Túi xách" },
+                new Category{ Id = 3, Name = "Đồng hồ" },
+                new Category{ Id = 4, Name = "Tivi" }
+            };
+
+            // sample products
+            List<Product> products = new List<Product>
+            {
+                new Product{ Id = 1, Name = "Bộ đồ bơi cho trẻ em nam", Image = Url.Content("~/Avatar/02.jfif"), Price = 50000, SalePrice = 35000, CategoryId = 1, Description = "Bộ đồ bơi đẹp", Status = true, CreatedAt = DateTime.Now },
+                new Product{ Id = 2, Name = "Bộ đồ bơi cho trẻ em nữ", Image = Url.Content("~/Avatar/03.jfif"), Price = 50000, SalePrice = 35000, CategoryId = 1, Description = "Bộ đồ bơi nữ", Status = true, CreatedAt = DateTime.Now },
+                new Product{ Id = 3, Name = "Túi thời trang mẫu mới 2021", Image = Url.Content("~/Avatar/04.jfif"), Price = 350000, SalePrice = 300000, CategoryId = 2, Description = "Túi xách thời trang", Status = true, CreatedAt = DateTime.Now }
+            };
+
+            ViewBag.Categories = categories;
+
+            if (categoryId.HasValue)
+            {
+                ViewBag.Products = products.Where(p => p.CategoryId == categoryId.Value).ToList();
+                ViewBag.CurrentCategoryId = categoryId.Value;
+            }
+            else
+            {
+                ViewBag.Products = products;
+                ViewBag.CurrentCategoryId = 0;
+            }
+
+            return View();
+        }
+
+        [HttpGet("{id}", Name = "product_details")]
+        public IActionResult Details(int id)
+        {
+            // same sample data (in real app use repository)
+            List<Product> products = new List<Product>
+            {
+                new Product{ Id = 1, Name = "Bộ đồ bơi cho trẻ em nam", Image = Url.Content("~/Avatar/02.jfif"), Price = 50000, SalePrice = 35000, CategoryId = 1, Description = "Mô tả sản phẩm 1", Status = true, CreatedAt = DateTime.Now },
+                new Product{ Id = 2, Name = "Bộ đồ bơi cho trẻ em nữ", Image = Url.Content("~/Avatar/03.jfif"), Price = 50000, SalePrice = 35000, CategoryId = 1, Description = "Mô tả sản phẩm 2", Status = true, CreatedAt = DateTime.Now },
+                new Product{ Id = 3, Name = "Túi thời trang mẫu mới 2021", Image = Url.Content("~/Avatar/04.jfif"), Price = 350000, SalePrice = 300000, CategoryId = 2, Description = "Mô tả sản phẩm 3", Status = true, CreatedAt = DateTime.Now }
+            };
+
+            var product = products.FirstOrDefault(p => p.Id == id) ?? products.First();
+            ViewBag.Product = product;
+            return View();
+        }
+    }
+}
