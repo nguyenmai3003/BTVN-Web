@@ -1,0 +1,4 @@
+C:\Users\Admin\Desktop\BTVN2\BTVN-Web\tuan 4\WebApplication1\wwwroot\images\products\b1.svg
+C:\Users\Admin\Desktop\BTVN2\BTVN-Web\tuan 4\WebApplication1\wwwroot\images\products\b2.svg
+C:\Users\Admin\Desktop\BTVN2\BTVN-Web\tuan 4\WebApplication1\wwwroot\images\products\b3.svg
+C:\Users\Admin\Desktop\BTVN2\BTVN-Web\tuan 4\WebApplication1\wwwroot\images\products\b4.svg
