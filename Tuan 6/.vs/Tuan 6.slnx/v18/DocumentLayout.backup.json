@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\views\\xmaimember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\views\\xmaimember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\controllers\\xmaimembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\controllers\\xmaimembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\views\\xmaimember\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\views\\xmaimember\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\views\\xmaimember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\views\\xmaimember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\views\\xmaimember\\getdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\views\\xmaimember\\getdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\views\\home\\getdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\views\\home\\getdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\models\\xmaimember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\models\\xmaimember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\views\\home\\xmaiabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\views\\home\\xmaiabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\tuan 6\\tuan 6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{853B8BAA-52D1-94DC-15FC-413AD54B9657}|Tuan 6\\Tuan 6.csproj|solutionrelative:tuan 6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\XmaiMember\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Tuan 6\\Views\\XmaiMember\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\XmaiMember\\Edit.cshtml",
+              "RelativeToolTip": "Tuan 6\\Views\\XmaiMember\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T07:28:35.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\XmaiMember\\Create.cshtml",
+              "RelativeDocumentMoniker": "Tuan 6\\Views\\XmaiMember\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\XmaiMember\\Create.cshtml",
+              "RelativeToolTip": "Tuan 6\\Views\\XmaiMember\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T14:47:39.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\XmaiMember\\GetDetails.cshtml",
+              "RelativeDocumentMoniker": "Tuan 6\\Views\\XmaiMember\\GetDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\XmaiMember\\GetDetails.cshtml",
+              "RelativeToolTip": "Tuan 6\\Views\\XmaiMember\\GetDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T15:05:01.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\XmaiMember\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tuan 6\\Views\\XmaiMember\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\XmaiMember\\Index.cshtml",
+              "RelativeToolTip": "Tuan 6\\Views\\XmaiMember\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T14:05:51.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\Home\\GetDetails.cshtml",
+              "RelativeDocumentMoniker": "Tuan 6\\Views\\Home\\GetDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\Home\\GetDetails.cshtml",
+              "RelativeToolTip": "Tuan 6\\Views\\Home\\GetDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T12:52:55.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XmaiMemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Controllers\\XmaiMemberController.cs",
+              "RelativeDocumentMoniker": "Tuan 6\\Controllers\\XmaiMemberController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Controllers\\XmaiMemberController.cs",
+              "RelativeToolTip": "Tuan 6\\Controllers\\XmaiMemberController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAIA8wIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T12:45:26.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "XmaiMember.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Models\\XmaiMember.cs",
+              "RelativeDocumentMoniker": "Tuan 6\\Models\\XmaiMember.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Models\\XmaiMember.cs",
+              "RelativeToolTip": "Tuan 6\\Models\\XmaiMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T12:40:44.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "XmaiAbout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\Home\\XmaiAbout.cshtml",
+              "RelativeDocumentMoniker": "Tuan 6\\Views\\Home\\XmaiAbout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\Home\\XmaiAbout.cshtml",
+              "RelativeToolTip": "Tuan 6\\Views\\Home\\XmaiAbout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T12:36:58.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Tuan 6\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Tuan 6\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T12:06:59.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tuan 6\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Tuan 6\\Tuan 6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tuan 6\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T12:04:47.519Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using Tuan_6.Models;
+
+namespace Tuan_6.Controllers
+{
+    public class XmaiMemberController : Controller
+    {
+        //mock data
+        private static readonly List<XmaiMember> XmaiMemberList = new List<XmaiMember>()
+        {
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "xuanmai",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "mai.nguyen@example.com",
+                XmaiMemFullname = "Nguyễn Thị Xuân Mai"
+            },
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "quangminh",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "minh.bui@example.com",
+                XmaiMemFullname = "Bùi Quang Minh"
+            },
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "phu_dev",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "phu@example.com",
+                XmaiMemFullname = "Thành viên Phú"
+            },
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "admin_cntt",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "admin.cntt2@example.com",
+                XmaiMemFullname = "Quản Trị Viên"
+            },
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "guest_user",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "guest@example.com",
+                XmaiMemFullname = "Khách Truy Cập"
+            }
+        };
+            public IActionResult Index()
+        {
+            return View(XmaiMember);
+        }
+
+        public IActionResult XmaiCreate()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult XmaiCreate(XmaiMember XmaiMember)
+        {
+            XmaiMember.XmaiMemberId = Guid.NewGuid().ToString();
+            XmaiMember.Add(XmaiMember);
+            return View();
+        }
+        public IActionResult getDetails()
+        {
+            var XmaiMember = new XmaiMember()
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "Xuan Mai",
+                XmaiMemberPassword = "123456",
+                XmaiMemFullname = "Xuan Mai",
+                XmaiMemberEmail = "nguyenmaii3003@gmail.com"
+            };
+
+            // Pass the model to the view. The view file is located under Views/Home/GetDetails.cshtml,
+            // so specify the full view path to render it from this controller.
+            return View("~/Views/Home/GetDetails.cshtml", XmaiMember);
+        }
+    }
+}

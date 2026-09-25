@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\LTTQ-sql\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78402337-5942-4ED6-B435-BB6142BE761E}|LTTQ-sql\\LTTQ-sql.csproj|d:\\lttq\\lttq-sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78402337-5942-4ED6-B435-BB6142BE761E}|LTTQ-sql\\LTTQ-sql.csproj|d:\\lttq\\lttq-sql.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78402337-5942-4ED6-B435-BB6142BE761E}|LTTQ-sql\\LTTQ-sql.csproj|d:\\lttq\\lttq-sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lttq-sql.cs [Design]",
+              "DocumentMoniker": "D:\\LTTQ\\lttq-sql.cs",
+              "ToolTip": "D:\\LTTQ\\lttq-sql.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T07:08:21.985Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lttq-sql.Designer.cs",
+              "DocumentMoniker": "D:\\LTTQ\\lttq-sql.Designer.cs",
+              "ToolTip": "D:\\LTTQ\\lttq-sql.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T07:07:50.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "lttq-sql.cs",
+              "DocumentMoniker": "D:\\LTTQ\\lttq-sql.cs",
+              "ToolTip": "D:\\LTTQ\\lttq-sql.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T06:44:48.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

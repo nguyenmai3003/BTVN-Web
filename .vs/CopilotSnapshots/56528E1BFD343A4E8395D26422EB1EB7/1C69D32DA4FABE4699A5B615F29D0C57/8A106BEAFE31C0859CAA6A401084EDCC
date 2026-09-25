@@ -1,0 +1,26 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Tuan_6.Models;
+
+namespace Tuan_6.Controllers
+{
+    public class XmaiMemberController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult getDetails()
+        {
+            var XmaiMember = new XmaiMember()
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "Xuan Mai",
+                XmaiMemberPassword = "123456",
+                XmaiMemFullname = "Xuan Mai",
+                XmaiMemberEmail = "nguyenmaii3003@gmail.com"
+            };
+
+            return View();
+        }
+    }
+}

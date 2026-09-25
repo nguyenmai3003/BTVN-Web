@@ -1,0 +1,93 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using Tuan_6.Models;
+
+namespace Tuan_6.Controllers
+{
+    public class XmaiMemberController : Controller
+    {
+        // Đã đổi tên thành XmaiMembers (thêm chữ 's' để phân biệt với Class gốc)
+        private static readonly List<XmaiMember> XmaiMembers = new List<XmaiMember>()
+        {
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "xuanmai",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "mai.nguyen@example.com",
+                XmaiMemFullname = "Nguyễn Thị Xuân Mai"
+            },
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "quangminh",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "minh.bui@example.com",
+                XmaiMemFullname = "Bùi Quang Minh"
+            },
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "phu_dev",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "phu@example.com",
+                XmaiMemFullname = "Thành viên Phú"
+            },
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "admin_cntt",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "admin.cntt2@example.com",
+                XmaiMemFullname = "Quản Trị Viên"
+            },
+            new XmaiMember
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "guest_user",
+                XmaiMemberPassword = "password123",
+                XmaiMemberEmail = "guest@example.com",
+                XmaiMemFullname = "Khách Truy Cập"
+            }
+        };
+
+        public IActionResult Index()
+        {
+            // Trả về danh sách XmaiMembers
+            return View(XmaiMembers);
+        }
+
+        public IActionResult XmaiCreate()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult XmaiCreate(XmaiMember member) // Đổi tên tham số thành 'member'
+        {
+            member.XmaiMemberId = Guid.NewGuid().ToString();
+
+            // Gọi hàm Add từ danh sách XmaiMembers
+            XmaiMembers.Add(member);
+
+            return View();
+        }
+
+        public IActionResult getDetails()
+        {
+            // Đổi tên biến thành memberDetail
+            var memberDetail = new XmaiMember()
+            {
+                XmaiMemberId = Guid.NewGuid().ToString(),
+                XmaiMemberUsername = "Xuan Mai",
+                XmaiMemberPassword = "123456",
+                XmaiMemFullname = "Xuan Mai",
+                XmaiMemberEmail = "nguyenmaii3003@gmail.com"
+            };
+
+            // Truyền memberDetail sang View
+            return View("GetDetails", memberDetail);
+        }
+    }
+}
