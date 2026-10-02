@@ -1,0 +1,93 @@
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using NetCoreMVCLAB5.Models;
+
+namespace NetCoreMVCLAB5.Controllers
+{
+    public class AccountController : Controller
+    {
+        // GET: AccountController
+        public ActionResult Index()
+        {
+            // sample data so the view shows something while developing
+            List<Account> accounts = new List<Account>
+            {
+                new Account { Id = 1, FullName = "Nguyen Van A", Email = "a@example.com", Phone = "0123456789", Address = "Ha Noi", Birthday = DateTime.Now.AddYears(-25), Gender = "Male" },
+                new Account { Id = 2, FullName = "Tran Thi B", Email = "b@example.com", Phone = "0987654321", Address = "Ho Chi Minh", Birthday = DateTime.Now.AddYears(-30), Gender = "Female" }
+            };
+
+            return View(accounts);
+        }
+
+        // GET: AccountController/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+        // GET: AccountController/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: AccountController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: AccountController/Edit/5
+        public ActionResult Edit(int id)
+        {
+            return View();
+        }
+
+        // POST: AccountController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: AccountController/Delete/5
+        public ActionResult Delete(int id)
+        {
+            return View();
+        }
+
+        // POST: AccountController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+    }
+}
