@@ -1,0 +1,40 @@
+@model baitap_trong_ngay.Models.XmaiMember
+
+@{
+    ViewData["Title"] = "Create Member";
+}
+
+<h1>Create</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="XmaiUsername"></label>
+        <input asp-for="XmaiUsername" class="form-control" />
+        <span asp-validation-for="XmaiUsername" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="XmaiPassword"></label>
+        <input asp-for="XmaiPassword" class="form-control" />
+        <span asp-validation-for="XmaiPassword" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="XmaiEmail"></label>
+        <input asp-for="XmaiEmail" class="form-control" />
+        <span asp-validation-for="XmaiEmail" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="XmaiPhone"></label>
+        <input asp-for="XmaiPhone" class="form-control" />
+        <span asp-validation-for="XmaiPhone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="XmaiBirthDate"></label>
+        <input asp-for="XmaiBirthDate" class="form-control" type="date" />
+        <span asp-validation-for="XmaiBirthDate" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

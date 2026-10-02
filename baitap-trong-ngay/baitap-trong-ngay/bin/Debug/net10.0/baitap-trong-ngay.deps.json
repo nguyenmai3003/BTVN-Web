@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "baitap-trong-ngay/1.0.0": {
+        "runtime": {
+          "baitap-trong-ngay.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "baitap-trong-ngay/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

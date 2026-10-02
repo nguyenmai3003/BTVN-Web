@@ -1,0 +1,35 @@
+@model IEnumerable<baitap_trong_ngay.Models.XmaiMember>
+
+@{
+    ViewData["Title"] = "XmaiMembers Index";
+}
+
+<h1>Members</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Birth Date</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model ?? Enumerable.Empty<baitap_trong_ngay.Models.XmaiMember>())
+{
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.XmaiUsername</td>
+            <td>@item.XmaiEmail</td>
+            <td>@item.XmaiPhone</td>
+            <td>@item.XmaiBirthDate.ToShortDateString()</td>
+        </tr>
+}
+    </tbody>
+</table>
