@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a asp-area="" asp-controller="Products" asp-action="Index">Danh sách sản phẩm </a></li>
+                <li><a asp-area="" asp-controller="Products" asp-action="Search">Tìm kiếm sản phẩm</a></li>
+                <li><a asp-area="" asp-controller="Products" asp-action="Hots">sản phẩm bán chạy</a></li>
+                <li><a asp-area="" asp-controller="Products" asp-action="About">Giới thiệu</a></li>
+
+               
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+            @RenderBody()
+        </div>
+    </section>
+    <footer>
+        <p>&copyright; 2026 - By@@ Nguyen Mai</p>
+    </footer>
+</body>
+</html>
+
+ 
