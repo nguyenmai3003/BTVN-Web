@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Tổng quan";
+}
+<div class="page-heading">
+    <div>
+        <p class="page-kicker">Lab 2 · Lesson 10</p>
+        <h1>Quản lý sinh viên</h1>
+        <p class="text-muted mb-0">Xem danh sách và thêm hồ sơ sinh viên.</p>
+    </div>
+</div>
+<div class="row g-4">
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-body p-4">
+                <h2 class="h5">Danh sách sinh viên</h2>
+                <p class="text-muted">Xem thông tin cá nhân, ngành học và hệ đào tạo.</p>
+                <a class="btn btn-primary" asp-route="StudentList">Xem danh sách</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-body p-4">
+                <h2 class="h5">Thêm sinh viên</h2>
+                <p class="text-muted">Nhập thông tin và tải lên ảnh đại diện cho sinh viên mới.</p>
+                <a class="btn btn-outline-primary" asp-route="StudentAdd">Thêm sinh viên</a>
+            </div>
+        </div>
+    </div>
+</div>

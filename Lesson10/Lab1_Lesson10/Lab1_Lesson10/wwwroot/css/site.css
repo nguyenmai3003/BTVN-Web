@@ -1,0 +1,165 @@
+:root {
+  --lab-border: #dee2e6;
+}
+
+html {
+  font-size: 15px;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #243247;
+  background: #f8f9fb;
+}
+
+body > .container {
+  flex: 1;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #1d4f91;
+}
+
+.page-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.page-heading h1 {
+  font-size: 1.75rem;
+  font-weight: 650;
+  margin-bottom: .5rem;
+}
+
+.page-kicker {
+  color: #63748b;
+  font-size: .8rem;
+  margin-bottom: .4rem;
+}
+
+.student-count {
+  font-size: .9rem;
+  padding: .5rem .8rem;
+  border-radius: .35rem;
+  background: #e9eef5;
+  white-space: nowrap;
+}
+
+.student-table-wrap,
+.student-form-panel {
+  background: white;
+  border: 1px solid var(--lab-border);
+  border-radius: .5rem;
+}
+
+.student-table {
+  min-width: 1050px;
+  font-size: .9rem;
+}
+
+.student-table th {
+  background: #eef2f7;
+  color: #34465d;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.student-table td,
+.student-table th {
+  padding: .8rem .7rem;
+}
+
+.student-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.avatar-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #335e92;
+  background: #e0eaf6;
+  font-weight: 600;
+}
+
+.training-label {
+  display: inline-block;
+  border-radius: .3rem;
+  padding: .25rem .5rem;
+  white-space: nowrap;
+  font-size: .8rem;
+}
+
+.training-label.regular {
+  color: #216245;
+  background: #e5f2eb;
+}
+
+.training-label.nonregular {
+  color: #5e6070;
+  background: #ececf1;
+}
+
+.student-form-panel {
+  padding: 1.75rem;
+  max-width: 950px;
+}
+
+.form-label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.gender-options {
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.field-validation-error {
+  display: block;
+  margin-top: .25rem;
+}
+
+.input-validation-error {
+  border-color: #dc3545;
+}
+
+.validation-summary-errors ul {
+  padding-left: 1.25rem;
+}
+
+.lab-footer {
+  padding: 1.2rem 0;
+  font-size: .8rem;
+  background: white;
+}
+
+.btn:focus-visible,
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 .2rem rgba(13, 110, 253, .2);
+}
+
+@media (max-width: 575.98px) {
+  .page-heading h1 {
+    font-size: 1.5rem;
+  }
+
+  .student-form-panel {
+    padding: 1.1rem;
+  }
+}
