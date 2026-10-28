@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson10\\Lab2_Lesson10\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson10\\Lab1_Lesson10\\Lab2_Lesson10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7ABE32-7910-9151-2DD4-8781DF23FC6B}|Lab2_Lesson10\\Lab2_Lesson10.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson10\\lab1_lesson10\\lab2_lesson10\\lab2_lesson10\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E7ABE32-7910-9151-2DD4-8781DF23FC6B}|Lab2_Lesson10\\Lab2_Lesson10.csproj|solutionrelative:lab2_lesson10\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7ABE32-7910-9151-2DD4-8781DF23FC6B}|Lab2_Lesson10\\Lab2_Lesson10.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson10\\lab1_lesson10\\lab2_lesson10\\lab2_lesson10\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7ABE32-7910-9151-2DD4-8781DF23FC6B}|Lab2_Lesson10\\Lab2_Lesson10.csproj|solutionrelative:lab2_lesson10\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson10\\Lab1_Lesson10\\Lab2_Lesson10\\Lab2_Lesson10\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Lab2_Lesson10\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson10\\Lab1_Lesson10\\Lab2_Lesson10\\Lab2_Lesson10\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Lab2_Lesson10\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T03:18:07.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson10\\Lab1_Lesson10\\Lab2_Lesson10\\Lab2_Lesson10\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Lab2_Lesson10\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson10\\Lab1_Lesson10\\Lab2_Lesson10\\Lab2_Lesson10\\Models\\Student.cs",
+              "RelativeToolTip": "Lab2_Lesson10\\Models\\Student.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T03:17:27.087Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"

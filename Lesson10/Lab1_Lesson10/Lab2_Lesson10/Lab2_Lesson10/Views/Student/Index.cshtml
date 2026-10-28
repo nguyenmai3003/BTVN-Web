@@ -34,6 +34,7 @@
                 <th scope="col">Mã</th>
                 <th scope="col">Họ tên</th>
                 <th scope="col">Ngày sinh</th>
+                <th scope="col">Điểm</th>
                 <th scope="col">Ngành</th>
                 <th scope="col">Giới tính</th>
                 <th scope="col">Hệ đào tạo</th>
@@ -71,7 +72,8 @@
                     </td>
                     <td>@student.Id</td>
                     <td class="fw-semibold">@student.Name</td>
-                    <td class="text-nowrap">@(student.DateOfBorth == DateTime.MinValue ? "—" : student.DateOfBorth.ToString("dd/MM/yyyy"))</td>
+                    <td class="text-nowrap">@(student.DateOfBorth?.ToString("dd/MM/yyyy") ?? "—")</td>
+                    <td>@(student.Score?.ToString("0.##") ?? "—")</td>
                     <td>@branchName</td>
                     <td>@genderName</td>
                     <td><span class="training-label @(student.IsRegular ? "regular" : "nonregular")">@(student.IsRegular ? "Chính quy" : "Phi chính quy")</span></td>
@@ -81,7 +83,7 @@
             }
             @if (!Model.Any())
             {
-                <tr><td colspan="9" class="text-center text-muted py-5">Chưa có sinh viên. Hãy thêm sinh viên đầu tiên.</td></tr>
+                <tr><td colspan="10" class="text-center text-muted py-5">Chưa có sinh viên. Hãy thêm sinh viên đầu tiên.</td></tr>
             }
         </tbody>
     </table>

@@ -1,5 +1,15 @@
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+    // Việt hóa lỗi chuyển đổi dữ liệu (ví dụ: điểm không phải số, ngày không hợp lệ).
+    var messages = options.ModelBindingMessageProvider;
+    messages.SetAttemptedValueIsInvalidAccessor((value, field) =>
+        $"Giá trị '{value}' không hợp lệ cho {field}.");
+    messages.SetValueMustBeANumberAccessor(field => $"{field} phải là một số hợp lệ.");
+    messages.SetValueIsInvalidAccessor(value => $"Giá trị '{value}' không hợp lệ.");
+    messages.SetUnknownValueIsInvalidAccessor(field => $"{field} không hợp lệ.");
+    messages.SetValueMustNotBeNullAccessor(_ => "Vui lòng nhập dữ liệu.");
+});
 
 var app = builder.Build();
 

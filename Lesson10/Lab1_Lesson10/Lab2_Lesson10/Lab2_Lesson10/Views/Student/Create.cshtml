@@ -17,28 +17,30 @@
     @* HTML thuần tương đương: <form action="/Admin/Student/Add" method="post" enctype="multipart/form-data"> kèm @Html.AntiForgeryToken(). *@
     @* Tag Helper theo tên route tương đương: <form asp-route="StudentAdd" method="post" enctype="multipart/form-data">. *@
     <form asp-controller="Student" asp-action="Create" method="post" enctype="multipart/form-data">
-        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+        <div asp-validation-summary="All" class="text-danger" role="alert"></div>
         <p class="small text-muted mb-4">Các trường có dấu <span class="text-danger">*</span> là bắt buộc.</p>
 
         <div class="row g-4">
             <div class="col-md-6">
                 <label asp-for="Name" class="form-label">Họ tên <span class="text-danger">*</span></label>
-                <input asp-for="Name" class="form-control" placeholder="Nhập họ tên" autocomplete="name" />
+                <input asp-for="Name" class="form-control" placeholder="Nhập họ tên (4–100 ký tự)" autocomplete="name" />
                 <span asp-validation-for="Name" class="text-danger small"></span>
             </div>
             <div class="col-md-6">
                 <label asp-for="Email" class="form-label">Email <span class="text-danger">*</span></label>
-                <input asp-for="Email" type="email" class="form-control" placeholder="sinhvien@example.com" autocomplete="email" />
+                <input asp-for="Email" type="email" class="form-control" placeholder="sinhvien@gmail.com" autocomplete="email" />
                 <span asp-validation-for="Email" class="text-danger small"></span>
             </div>
             <div class="col-md-6">
                 <label asp-for="Password" class="form-label">Mật khẩu <span class="text-danger">*</span></label>
-                <input asp-for="Password" type="password" class="form-control" autocomplete="new-password" />
+                <input asp-for="Password" type="password" class="form-control" autocomplete="new-password" aria-describedby="password-help" />
+                <div id="password-help" class="form-text">Từ 8 đến 100 ký tự, có chữ hoa, chữ thường, số và ký tự đặc biệt.</div>
                 <span asp-validation-for="Password" class="text-danger small"></span>
             </div>
             <div class="col-md-6">
                 <label asp-for="DateOfBorth" class="form-label">Ngày sinh <span class="text-danger">*</span></label>
-                <input asp-for="DateOfBorth" type="date" value="@(Model.DateOfBorth == default ? "" : Model.DateOfBorth.ToString("yyyy-MM-dd"))" class="form-control" />
+                <input asp-for="DateOfBorth" type="date" asp-format="{0:yyyy-MM-dd}" min="1963-01-01" max="2005-12-31" class="form-control" aria-describedby="birthday-help" data-val-date="Ngày sinh không hợp lệ." />
+                <div id="birthday-help" class="form-text">Từ 01/01/1963 đến 31/12/2005.</div>
                 <span asp-validation-for="DateOfBorth" class="text-danger small"></span>
             </div>
             <div class="col-md-6">
@@ -64,6 +66,11 @@
                     <span asp-validation-for="Gender" class="text-danger small"></span>
                 </fieldset>
             </div>
+            <div class="col-md-6">
+                <label asp-for="Score" class="form-label">Điểm <span class="text-danger">*</span></label>
+                <input asp-for="Score" type="number" step="any" min="0" max="10" class="form-control" placeholder="Ví dụ: 8.5" />
+                <span asp-validation-for="Score" class="text-danger small"></span>
+            </div>
             <div class="col-12">
                 <label asp-for="Address" class="form-label">Địa chỉ <span class="text-danger">*</span></label>
                 <textarea asp-for="Address" class="form-control" rows="2" placeholder="Nhập địa chỉ"></textarea>
@@ -81,6 +88,7 @@
                         <input asp-for="IsRegular" class="form-check-input" />
                         <label asp-for="IsRegular" class="form-check-label">Sinh viên hệ chính quy</label>
                     </div>
+                    <span asp-validation-for="IsRegular" class="text-danger small"></span>
                     <p class="form-text mb-0">Bỏ chọn nếu học hệ phi chính quy.</p>
                 </div>
             </div>
@@ -95,4 +103,5 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/student-validation.js" asp-append-version="true"></script>
 }

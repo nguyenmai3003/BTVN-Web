@@ -16,16 +16,16 @@ public class StudentController : Controller
     {
         new Student { Id = 101, Name = "Hải Nam", Branch = Branch.IT,
             Gender = Gender.Male, IsRegular = true, DateOfBorth = new DateTime(2003, 5, 12),
-            Address = "A1-2018", Email = "nam@g.com" },
+            Address = "A1-2018", Email = "nam@gmail.com", Score = 8.5m },
         new Student { Id = 102, Name = "Minh Tú", Branch = Branch.BE,
             Gender = Gender.Female, IsRegular = true, DateOfBorth = new DateTime(2003, 8, 20),
-            Address = "A1-2019", Email = "tu@g.com" },
+            Address = "A1-2019", Email = "tu@gmail.com", Score = 9m },
         new Student { Id = 103, Name = "Hoàng Phong", Branch = Branch.CE,
             Gender = Gender.Male, IsRegular = false, DateOfBorth = new DateTime(2002, 11, 3),
-            Address = "A1-2020", Email = "phong@g.com" },
+            Address = "A1-2020", Email = "phong@gmail.com", Score = 7.5m },
         new Student { Id = 104, Name = "Xuân Mai", Branch = Branch.EE,
             Gender = Gender.Female, IsRegular = false, DateOfBorth = new DateTime(2003, 2, 16),
-            Address = "A1-2021", Email = "mai@g.com" }
+            Address = "A1-2021", Email = "mai@gmail.com", Score = 8m }
     };
 
     public StudentController(IWebHostEnvironment environment)
@@ -52,15 +52,9 @@ public class StudentController : Controller
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(
-        [Bind("Name,Email,Password,Branch,Gender,IsRegular,Address,DateOfBorth")] Student student,
+        [Bind("Name,Email,Password,Branch,Gender,IsRegular,Address,DateOfBorth,Score")] Student student,
         IFormFile? avatar)
     {
-        if (student.DateOfBorth < new DateTime(1900, 1, 1) || student.DateOfBorth.Date > DateTime.Today)
-        {
-            ModelState.AddModelError(nameof(Student.DateOfBorth),
-                "Ngày sinh phải từ 01/01/1900 đến hôm nay.");
-        }
-
         var extension = avatar is null ? "" : Path.GetExtension(avatar.FileName).ToLowerInvariant();
         if (avatar is not null)
         {
