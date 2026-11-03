@@ -1,0 +1,33 @@
+@model List<Student>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Branch</th>
+            <th>Gender</th>
+            <th>IsRegular</th>
+            <th>Address</th>
+            <th>DateOfBorth</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Name</td>
+                <td>@s.Email</td>
+                <td>@s.Branch</td>
+                <td>@s.Gender</td>
+                <td>@s.IsRegular</td>
+                <td>@s.Address</td>
+                <td>@s.DateOfBorth.ToString("dd/MM/yyyy")</td>
+                <td>@s.Score</td>
+            </tr>
+        }
+    </tbody>
+</table>
