@@ -1,4 +1,4 @@
-// Lab 5: chỉ thay bảng người học khi chọn chuyên ngành ở chế độ AJAX.
+// Lab 5: replace only the learner table when selecting a major in AJAX mode.
 $(function () {
     const filter = $("#major-filter");
     if (filter.attr("data-use-ajax") !== "true") {
@@ -11,7 +11,7 @@ $(function () {
     let pendingRequest;
 
     filter.on("click", "a[data-major-id]", function (event) {
-        // Giữ thao tác mở liên kết trong tab mới của trình duyệt.
+        // Preserve the browser's open-link-in-new-tab behavior.
         if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.which > 1) {
             return;
         }
@@ -25,7 +25,7 @@ $(function () {
         const majorId = link.attr("data-major-id");
         error.prop("hidden", true);
         content.attr("aria-busy", "true");
-        status.text("Đang tải danh sách…");
+        status.text("Loading learner list…");
 
         pendingRequest = $.ajax({
             url: filter.attr("data-filter-url"),
@@ -36,9 +36,9 @@ $(function () {
             content.html(response);
             filter.find("a[data-major-id]").removeClass("active").removeAttr("aria-current");
             link.addClass("active").attr("aria-current", "page");
-            status.text("Đã hiển thị: " + link.text().trim() + ".");
+            status.text("Displayed: " + link.text().trim() + ".");
 
-            // Khi tải lại hoặc đổi chế độ, giữ chuyên ngành vừa chọn.
+            // Preserve the selected major when reloading or changing modes.
             window.history.replaceState(null, "", link.attr("href"));
             $("a[data-load-mode]").each(function () {
                 const modeLink = new URL(this.href);
@@ -52,7 +52,7 @@ $(function () {
         }).fail(function (_, textStatus) {
             if (textStatus !== "abort") {
                 status.text("");
-                error.text("Không tải được danh sách. Hãy thử lại hoặc chọn chế độ Tải lại trang.")
+                error.text("Unable to load the learner list. Try again or select Reload page mode.")
                     .prop("hidden", false);
             }
         }).always(function () {

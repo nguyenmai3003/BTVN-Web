@@ -1,19 +1,19 @@
 @model IEnumerable<Learner>
 @{
-    ViewData["Title"] = "Danh sách người học";
+    ViewData["Title"] = "Learner List";
     int? selectedMajorId = ViewBag.SelectedMajorId;
     bool useAjax = ViewBag.UseAjax;
 }
 <div class="ms-2 mx-2">
-    <h1>Danh sách người học</h1>
-    <p class="text-muted">Chọn chuyên ngành để lọc danh sách người học.</p>
+    <h1>Learner List</h1>
+    <p class="text-muted">Choose a major to filter the learner list.</p>
 
     <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
-        <span>Cách tải dữ liệu:</span>
-        <div class="btn-group" role="group" aria-label="Cách tải dữ liệu">
+        <span>Data loading method:</span>
+        <div class="btn-group" role="group" aria-label="Data loading method">
             <a asp-action="Index" asp-route-mid="@selectedMajorId" asp-route-useAjax="false"
                data-load-mode="false" class="btn btn-outline-primary @(!useAjax ? "active" : "")"
-               aria-current="@(!useAjax ? "page" : null)">Tải lại trang</a>
+               aria-current="@(!useAjax ? "page" : null)">Reload page</a>
             <a asp-action="Index" asp-route-mid="@selectedMajorId" asp-route-useAjax="true"
                data-load-mode="true" class="btn btn-outline-primary @(useAjax ? "active" : "")"
                aria-current="@(useAjax ? "page" : null)">AJAX</a>
@@ -27,7 +27,7 @@
     <div id="content" aria-live="polite" aria-busy="false">
         <partial name="LearnerTable" model="Model" />
     </div>
-    <a asp-action="Create" class="btn btn-primary">Thêm người học</a>
+    <a asp-action="Create" class="btn btn-primary">Add Learner</a>
 </div>
 
 @section Scripts {

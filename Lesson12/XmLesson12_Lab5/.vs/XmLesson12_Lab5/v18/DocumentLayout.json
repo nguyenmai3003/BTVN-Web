@@ -3,8 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\.copilot\\plans\\plan-translate-learner-management-ui-to-english.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\shared\\topnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\shared\\topnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\shared\\leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\shared\\leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\learner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\learner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\learner\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\learner\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\views\\learner\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\views\\learner\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\models\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\models\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\controllers\\learnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\controllers\\learnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\lesson12\\xmlesson12_lab5\\xmlesson12_lab5\\wwwroot\\js\\learner-filter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F184ABC0-7680-4D1A-A02D-9CA9EC65AEF6}|XmLesson12_Lab5\\XmLesson12_Lab5.csproj|solutionrelative:xmlesson12_lab5\\wwwroot\\js\\learner-filter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +69,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "XmLesson12_Lab5\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T00:48:54.786Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -40,6 +82,200 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "plan-translate-learner-management-ui-to-english.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\Admin\\.copilot\\plans\\plan-translate-learner-management-ui-to-english.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.copilot\\plans\\plan-translate-learner-management-ui-to-english.md",
+              "ToolTip": "C:\\Users\\Admin\\.copilot\\plans\\plan-translate-learner-management-ui-to-english.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\.copilot\\plans\\plan-translate-learner-management-ui-to-english.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-04T17:47:43.663Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\Index.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Learner\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\Index.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Learner\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:20.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\Footer.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Shared\\Footer.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\Footer.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Shared\\Footer.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:00.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeftMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\LeftMenu.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Shared\\LeftMenu.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\LeftMenu.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Shared\\LeftMenu.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:00.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TopNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\TopNav.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Shared\\TopNav.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\TopNav.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Shared\\TopNav.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:00.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:00.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "XmLesson12_Lab5\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T00:48:54.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "learner-filter.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\wwwroot\\js\\learner-filter.js",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\wwwroot\\js\\learner-filter.js",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\wwwroot\\js\\learner-filter.js",
+              "RelativeToolTip": "XmLesson12_Lab5\\wwwroot\\js\\learner-filter.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-04T17:46:48.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LearnerController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Controllers\\LearnerController.cs",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Controllers\\LearnerController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Controllers\\LearnerController.cs",
+              "RelativeToolTip": "XmLesson12_Lab5\\Controllers\\LearnerController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T17:46:28.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Learner.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Models\\Learner.cs",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Models\\Learner.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Models\\Learner.cs",
+              "RelativeToolTip": "XmLesson12_Lab5\\Models\\Learner.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T17:46:27.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\Delete.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Learner\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\Delete.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Learner\\Delete.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:20.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\Edit.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Learner\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\Edit.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Learner\\Edit.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:20.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\Create.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Learner\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\Create.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Learner\\Create.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:20.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LearnerTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\LearnerTable.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Learner\\LearnerTable.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Learner\\LearnerTable.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Learner\\LearnerTable.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:20.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RenderMajor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "RelativeDocumentMoniker": "XmLesson12_Lab5\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\Lesson12\\XmLesson12_Lab5\\XmLesson12_Lab5\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "RelativeToolTip": "XmLesson12_Lab5\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T17:46:20.602Z",
+              "EditorCaption": ""
             }
           ]
         },

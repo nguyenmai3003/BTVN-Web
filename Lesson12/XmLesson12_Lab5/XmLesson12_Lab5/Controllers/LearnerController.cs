@@ -135,7 +135,7 @@ public class LearnerController : Controller
         if (learner.Enrollments.Count > 0)
         {
             ModelState.AddModelError(string.Empty,
-                "Không thể xóa người học đã có đăng ký học phần.");
+                "Cannot delete a learner who has course enrollments.");
         }
 
         return View(learner);
@@ -155,7 +155,7 @@ public class LearnerController : Controller
         if (learner.Enrollments.Count > 0)
         {
             ModelState.AddModelError(string.Empty,
-                "Không thể xóa người học đã có đăng ký học phần.");
+                "Cannot delete a learner who has course enrollments.");
             return View("Delete", learner);
         }
 
@@ -175,7 +175,7 @@ public class LearnerController : Controller
     {
         if (!db.Majors.Any(major => major.MajorID == majorId))
         {
-            ModelState.AddModelError(nameof(Learner.MajorID), "Vui lòng chọn chuyên ngành có trong danh sách.");
+            ModelState.AddModelError(nameof(Learner.MajorID), "Please select a major from the list.");
         }
     }
 

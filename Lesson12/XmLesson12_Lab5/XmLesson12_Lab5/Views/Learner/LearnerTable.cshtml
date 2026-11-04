@@ -2,21 +2,21 @@
 
 <div class="table-responsive">
     <table class="table table-striped align-middle">
-        <caption>Danh sách có @Model.Count() người học</caption>
+        <caption>The list contains @Model.Count() learner(s)</caption>
         <thead>
             <tr>
-                <th scope="col">Mã</th>
-                <th scope="col">Tên</th>
-                <th scope="col">Họ</th>
-                <th scope="col">Ngành</th>
-                <th scope="col">Ngày nhập học</th>
-                <th scope="col">Chức năng</th>
+                <th scope="col">ID</th>
+                <th scope="col">First and Middle Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Major</th>
+                <th scope="col">Enrollment Date</th>
+                <th scope="col">Actions</th>
             </tr>
         </thead>
         <tbody>
             @if (!Model.Any())
             {
-                <tr><td colspan="6" class="text-center text-muted py-4">Không có người học thuộc chuyên ngành này.</td></tr>
+                <tr><td colspan="6" class="text-center text-muted py-4">No learners found for this major.</td></tr>
             }
             @foreach (var learner in Model)
             {
@@ -27,9 +27,9 @@
                     <td>@learner.Major?.MajorName</td>
                     <td>@learner.EnrollmentDate.ToString("dd/MM/yyyy")</td>
                     <td>
-                        <a asp-controller="Learner" asp-action="Edit" asp-route-id="@learner.LearnerID">Sửa</a>
+                        <a asp-controller="Learner" asp-action="Edit" asp-route-id="@learner.LearnerID">Edit</a>
                         <span aria-hidden="true"> | </span>
-                        <a asp-controller="Learner" asp-action="Delete" asp-route-id="@learner.LearnerID">Xóa</a>
+                        <a asp-controller="Learner" asp-action="Delete" asp-route-id="@learner.LearnerID">Delete</a>
                     </td>
                 </tr>
             }
