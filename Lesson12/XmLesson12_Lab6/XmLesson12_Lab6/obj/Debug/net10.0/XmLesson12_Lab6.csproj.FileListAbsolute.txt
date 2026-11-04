@@ -67,7 +67,6 @@ C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\o
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\scopedcss\bundle\XmLesson12_Lab6.styles.css
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\scopedcss\projectbundle\XmLesson12_Lab6.bundle.scp.css
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\compressed\hptd4zsvba-{0}-sjfilhzs72-sjfilhzs72.gz
-C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\compressed\52qg39ieco-{0}-u33o1wyjnq-u33o1wyjnq.gz
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\compressed\ib4migzthg-{0}-lv5tvmajl9-lv5tvmajl9.gz
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\compressed\onfaxsvs2b-{0}-46ein0sx1k-46ein0sx1k.gz
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\compressed\lv8gcc3b0g-{0}-493y06b0oq-493y06b0oq.gz
@@ -90,3 +89,4 @@ C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\o
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\XmLesson12_Lab6.genruntimeconfig.cache
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\ref\XmLesson12_Lab6.dll
 C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Desktop\BTVN2\BTVN-Web\Lesson12\XmLesson12_Lab6\XmLesson12_Lab6\obj\Debug\net10.0\compressed\52qg39ieco-{0}-7aifnpqo21-7aifnpqo21.gz

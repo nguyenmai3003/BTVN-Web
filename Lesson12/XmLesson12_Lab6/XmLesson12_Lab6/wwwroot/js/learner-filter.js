@@ -1,4 +1,4 @@
-// Lab6: cùng một action xử lý tìm kiếm, lọc chuyên ngành và phân trang.
+// Lab 6: one action handles searching, major filtering, and pagination.
 $(function () {
     const filter = $('#major-filter');
     if (filter.attr('data-use-ajax') !== 'true') return;
@@ -47,14 +47,14 @@ $(function () {
             href.searchParams.set('pageIndex', page);
             this.href = href.toString();
         });
-        status.text('Đã tải trang ' + page + ' · ' + result.attr('data-total-count') + ' người học.');
+        status.text('Loaded page ' + page + ' · ' + result.attr('data-total-count') + ' learners.');
     }
 
     function loadResults(url) {
         if (pendingRequest) pendingRequest.abort();
         error.prop('hidden', true);
         content.attr('aria-busy', 'true');
-        status.text('Đang tải danh sách…');
+        status.text('Loading learner list…');
         pendingRequest = $.ajax({
             url: filter.attr('data-filter-url'),
             type: 'GET',
@@ -71,7 +71,7 @@ $(function () {
         }).fail(function (_, textStatus) {
             if (textStatus !== 'abort') {
                 status.text('');
-                error.text('Không tải được danh sách. Hãy thử lại hoặc chọn Tải lại trang.').prop('hidden', false);
+                error.text('Could not load the learner list. Try again or choose Reload Page.').prop('hidden', false);
             }
         }).always(function () {
             content.attr('aria-busy', 'false');
@@ -83,7 +83,7 @@ $(function () {
         event.preventDefault();
         loadResults(new URL(this.href));
     });
-    // Phân trang nằm trong partial nên dùng delegated event sau mỗi lần thay bảng.
+    // Pagination is rendered in the partial, so use a delegated event after each table refresh.
     content.on('click', 'a[data-page-index]', function (event) {
         if (!isPlainClick(event)) return;
         event.preventDefault();

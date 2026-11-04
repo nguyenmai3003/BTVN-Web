@@ -1,14 +1,14 @@
 @{
-    ViewData["Title"] = "Xóa người học";
+    ViewData["Title"] = "Delete Learner";
 }
 @model Learner
 
 <div class="ms-2 mx-2">
-    <h1>Xóa người học</h1>
+    <h1>Delete Learner</h1>
     <div asp-validation-summary="All" class="text-danger"></div>
     @if (!Model.Enrollments.Any())
     {
-        <p>Bạn có chắc muốn xóa người học này?</p>
+        <p>Are you sure you want to delete this learner?</p>
     }
     <hr />
     <dl class="row">
@@ -42,8 +42,8 @@
         <input type="hidden" asp-for="LearnerID" />
         @if (!Model.Enrollments.Any())
         {
-            <button type="submit" class="btn btn-danger">Xóa người học</button>
+            <button type="submit" class="btn btn-danger">Delete Learner</button>
         }
-        <a asp-action="Index" class="btn btn-outline-secondary">Quay lại danh sách</a>
+        <a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>
     </form>
 </div>

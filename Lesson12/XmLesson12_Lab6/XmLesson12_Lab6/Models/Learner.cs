@@ -9,16 +9,16 @@ namespace XmLesson12_Lab6.Models
             Enrollments = new HashSet<Enrollment>();
         }
         public int LearnerID { get; set; }
-        [Required(ErrorMessage = "Vui lòng nhập họ.")]
-        [Display(Name = "Họ")]
+        [Required(ErrorMessage = "Please enter a last name.")]
+        [Display(Name = "Last Name")]
         public string LastName { get; set; } = string.Empty;
-        [Required(ErrorMessage = "Vui lòng nhập tên và tên đệm.")]
-        [Display(Name = "Tên và tên đệm")]
+        [Required(ErrorMessage = "Please enter a first and middle name.")]
+        [Display(Name = "First and Middle Name")]
         public string FirstMidName { get; set; } = string.Empty;
-        [Display(Name = "Ngày nhập học")]
+        [Display(Name = "Enrollment Date")]
         [DataType(DataType.Date)]
         public DateTime EnrollmentDate { get; set; }
-        [Display(Name = "Chuyên ngành")]
+        [Display(Name = "Major")]
         public int MajorID { get; set; }
         public virtual Major? Major { get; set; }
         public virtual ICollection<Enrollment> Enrollments { get; set; }

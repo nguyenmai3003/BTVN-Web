@@ -43,7 +43,7 @@ public class LearnerController : Controller
             learners = learners.Where(learner => learner.FirstMidName.ToLower().Contains(searchTerm));
         }
 
-        // Lọc và tìm kiếm trước khi đếm, rồi sắp xếp ổn định trước Skip/Take.
+        // Filter and search before counting, then apply stable ordering before Skip/Take.
         var totalCount = await learners.CountAsync();
         var pageCount = (int)Math.Ceiling(totalCount / (double)PageSize);
         var page = Math.Clamp(pageIndex ?? 1, 1, Math.Max(1, pageCount));
@@ -151,7 +151,7 @@ public class LearnerController : Controller
         if (learner.Enrollments.Count > 0)
         {
             ModelState.AddModelError(string.Empty,
-                "Không thể xóa người học đã có đăng ký học phần.");
+                "Cannot delete a learner who has enrollments.");
         }
 
         return View(learner);
@@ -171,7 +171,7 @@ public class LearnerController : Controller
         if (learner.Enrollments.Count > 0)
         {
             ModelState.AddModelError(string.Empty,
-                "Không thể xóa người học đã có đăng ký học phần.");
+                "Cannot delete a learner who has enrollments.");
             return View("Delete", learner);
         }
 
@@ -191,7 +191,7 @@ public class LearnerController : Controller
     {
         if (!db.Majors.Any(major => major.MajorID == majorId))
         {
-            ModelState.AddModelError(nameof(Learner.MajorID), "Vui lòng chọn chuyên ngành có trong danh sách.");
+            ModelState.AddModelError(nameof(Learner.MajorID), "Please select a major from the list.");
         }
     }
 

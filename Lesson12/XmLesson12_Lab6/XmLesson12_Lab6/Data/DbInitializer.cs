@@ -40,7 +40,7 @@ public static class DbInitializer
             }
         };
         context.Learners.AddRange(learners);
-        // Dữ liệu riêng của Lab6: đủ 15 người học để thử 5 trang và lọc từng ngành.
+        // Lab 6 data: 15 learners to test five pages and filtering by major.
         var extraLearners = new (string FirstName, string LastName, int MajorIndex)[]
         {
             ("Nam", "Lê", 2), ("Minh", "Trần", 0), ("Lan", "Nguyễn", 1),
