@@ -1,0 +1,140 @@
+:root {
+    --bistup-blue: #92afd6;
+    --bistup-dark: #1d2533;
+    --bistup-ink: #222a34;
+    --bistup-muted: #566171;
+    --bistup-border: #e2e6ec;
+}
+
+.site-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: var(--bistup-ink);
+}
+
+.site-content { flex: 1; }
+.bistup-shell { width: min(1120px, calc(100% - 3rem)); margin-inline: auto; }
+
+.site-topbar { background: #111; color: #f5f7fa; }
+.site-topbar .bistup-shell,
+.site-navigation .bistup-shell { display: flex; flex-wrap: wrap; }
+.site-topbar a,
+.site-navigation a {
+    display: inline-block;
+    padding: .65rem 1rem;
+    color: inherit;
+    font-size: .85rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.site-topbar a:hover, .site-topbar a:focus-visible { background: #383f4b; }
+
+.site-masthead {
+    min-height: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: .75rem;
+    padding-block: 1rem;
+}
+.site-brand {
+    color: var(--bistup-ink);
+    font: small-caps 2.1rem/1 Georgia, serif;
+    text-decoration: none;
+}
+.site-brand span, .masthead-note {
+    color: var(--bistup-muted);
+    font: .85rem/1.6 system-ui, sans-serif;
+}
+.site-brand span { display: block; margin-top: .25rem; }
+.masthead-note { margin: 0; }
+
+.site-navigation { background: var(--bistup-blue); color: #17263b; }
+.site-navigation a { padding-block: .9rem; text-transform: uppercase; }
+.site-navigation a:hover, .site-navigation a:focus-visible { background: #b6cbe8; }
+.site-page > #cookieConsent { margin: 0; border-radius: 0; }
+
+.bistup-hero {
+    padding: clamp(4rem, 10vw, 8.75rem) 0;
+    color: #fff;
+    background: repeating-linear-gradient(135deg, #20252d 0 16px, #252b34 16px 32px);
+}
+.hero-kicker { color: #bdcfe6; letter-spacing: .18em; text-transform: uppercase; }
+.bistup-hero h1 {
+    max-width: 19ch;
+    margin: .45rem 0 1rem;
+    font: small-caps clamp(2.35rem, 6vw, 4.6rem)/1.05 Georgia, serif;
+}
+.bistup-hero p:not(.hero-kicker) { max-width: 42ch; margin-bottom: 1.7rem; }
+.bistup-button {
+    display: inline-block;
+    padding: .7rem 1.25rem;
+    border-radius: .25rem;
+    color: #14233a;
+    background: var(--bistup-blue);
+    font-weight: 700;
+    text-decoration: none;
+}
+.bistup-button:hover, .bistup-button:focus-visible { background: #c1d5ef; color: #14233a; }
+
+.bistup-section { padding-block: clamp(2.5rem, 7vw, 5rem); }
+.gallery-section { border-top: 1px solid var(--bistup-border); }
+.section-heading { text-align: center; margin: 0 auto 2rem; }
+.section-heading h2, .bistup-grid h3, .site-footer h2 { font-family: Georgia, serif; }
+.section-heading p, .bistup-grid p { color: var(--bistup-muted); }
+.bistup-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.bistup-grid h3 { font-size: 1.3rem; }
+.bistup-grid p { margin-bottom: 0; }
+
+.feature-card {
+    border: 1px solid var(--bistup-border);
+    background: #f8fafc;
+    padding: 1.8rem 1.25rem;
+    text-align: center;
+}
+.feature-mark {
+    display: inline-grid;
+    place-items: center;
+    width: 3.25rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    background: #d9e5f4;
+    color: #254468;
+    font-size: 1.45rem;
+}
+.gallery-card { margin: 0; border: 1px solid var(--bistup-border); }
+.gallery-image {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 4 / 3;
+    background: linear-gradient(135deg, #232c39, #405b7a);
+    color: #dce9fb;
+    font: 2.2rem Georgia, serif;
+}
+.gallery-card figcaption { padding: 1.1rem 1.25rem; }
+
+.site-content > :is(h1, h2, p) {
+    width: min(1120px, calc(100% - 3rem));
+    margin-inline: auto;
+}
+.site-content > h1 { margin-top: 2rem; }
+
+.site-footer { background: #243c5a; color: #f3f6fb; }
+.site-footer a { color: #d6e5fc; }
+.site-footer h2 { font-size: 1.35rem; }
+.site-footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    padding-block: 2.5rem;
+}
+.site-copyright { background: var(--bistup-dark); padding-block: 1rem; font-size: .85rem; }
+
+@media (max-width: 720px) {
+    .bistup-shell { width: calc(100% - 2rem); }
+    .bistup-grid { grid-template-columns: 1fr; }
+    .site-footer-content { grid-template-columns: 1fr; }
+}

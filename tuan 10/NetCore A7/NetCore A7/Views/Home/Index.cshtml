@@ -1,10 +1,65 @@
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chủ";
 
-    Layout = "~/Views/Shared/_main.cshtml";
+    var examples = new[]
+    {
+        (Name: "Trang chủ", Detail: "Banner giới thiệu và các nhóm nội dung chính.", Symbol: "01"),
+        (Name: "Điều hướng", Detail: "Liên kết đến các mục trong trang và khu vực quản trị.", Symbol: "02"),
+        (Name: "Thẻ nội dung", Detail: "Các khối hiển thị linh hoạt theo chiều rộng màn hình.", Symbol: "03"),
+        (Name: "Chân trang", Detail: "Thông tin và liên kết được dùng chung giữa các trang.", Symbol: "04"),
+        (Name: "Trang chính sách", Detail: "Một view khác sử dụng lại layout người dùng.", Symbol: "05"),
+        (Name: "Khu vực quản trị", Detail: "MVC Area với tuyến đường và bố cục riêng.", Symbol: "06")
+    };
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="bistup-hero" aria-labelledby="hero-title">
+    <div class="bistup-shell">
+        <p class="hero-kicker">Bài thực hành 07</p>
+        <h1 id="hero-title">Bố cục với ASP.NET Core MVC</h1>
+        <p>Khám phá cách dùng lại phần đầu và chân trang trong các Razor View.</p>
+        <a class="bistup-button" href="#gioi-thieu">Xem nội dung</a>
+    </div>
+</section>
+
+<section class="bistup-shell bistup-section" id="gioi-thieu" aria-labelledby="intro-title">
+    <div class="section-heading">
+        <h2 id="intro-title">Giới thiệu</h2>
+        <p>Ba thành phần tổ chức bố cục và điều hướng trong dự án.</p>
+    </div>
+    <div class="bistup-grid">
+        <article class="feature-card">
+            <span class="feature-mark" aria-hidden="true">▤</span>
+            <h3>Layout dùng chung</h3>
+            <p>Header, menu và footer được định nghĩa một lần trong Razor layout.</p>
+        </article>
+        <article class="feature-card">
+            <span class="feature-mark" aria-hidden="true">◇</span>
+            <h3>Nội dung theo từng View</h3>
+            <p>Trang chủ và trang chính sách hiển thị nội dung riêng trong cùng bố cục.</p>
+        </article>
+        <article class="feature-card">
+            <span class="feature-mark" aria-hidden="true">▦</span>
+            <h3>MVC Area</h3>
+            <p>Khu vực Admins có dashboard và trang danh mục với layout riêng.</p>
+        </article>
+    </div>
+</section>
+
+<section class="bistup-shell bistup-section gallery-section" id="bo-suu-tap" aria-labelledby="gallery-title">
+    <div class="section-heading">
+        <h2 id="gallery-title">Bộ sưu tập</h2>
+        <p>Các phần của giao diện trong bài thực hành.</p>
+    </div>
+    <div class="bistup-grid">
+        @foreach (var example in examples)
+        {
+            <figure class="gallery-card">
+                <div class="gallery-image" aria-hidden="true">@example.Symbol</div>
+                <figcaption>
+                    <h3>@example.Name</h3>
+                    <p>@example.Detail</p>
+                </figcaption>
+            </figure>
+        }
+    </div>
+</section>

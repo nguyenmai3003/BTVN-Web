@@ -3,33 +3,62 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NetCore A7</title>
+    <title>@ViewData["Title"] - Bistup</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bistup.css" asp-append-version="true" />
+    @await RenderSectionAsync("Css", required: false)
 </head>
-<body>
+<body class="site-page">
+    <a class="visually-hidden-focusable" href="#main-content">Đến nội dung chính</a>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">NetCore A7 - Layout _main</a>
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
-                </ul>
+        <div class="site-topbar">
+            <div class="bistup-shell">
+                <a asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                <a asp-area="" asp-controller="Home" asp-action="Privacy">Chính sách</a>
+                <a asp-area="Admins" asp-controller="Dashboard" asp-action="Index">Quản trị</a>
+            </div>
+        </div>
+        <div class="bistup-shell site-masthead">
+            <a class="site-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                Bistup
+                <span>Labguide 07 · ASP.NET Core MVC</span>
+            </a>
+            <p class="masthead-note">Thực hành bố cục Razor</p>
+        </div>
+        <nav class="site-navigation" aria-label="Điều hướng chính">
+            <div class="bistup-shell">
+                <a asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" asp-fragment="gioi-thieu">Giới thiệu</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" asp-fragment="bo-suu-tap">Bộ sưu tập</a>
+                <a asp-area="Admins" asp-controller="Dashboard" asp-action="Index">Quản trị</a>
             </div>
         </nav>
     </header>
 
     <partial name="_CookieConsentPartial" />
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <main id="main-content" class="site-content">
+        @RenderBody()
+    </main>
 
-    <footer class="border-top text-muted text-center py-3">
-        &copy; 2026 - NetCore A7
+    <footer class="site-footer">
+        <div class="bistup-shell site-footer-content">
+            <div>
+                <h2>Bistup</h2>
+                <p>Bài thực hành về layout, Razor View và MVC Area.</p>
+            </div>
+            <div>
+                <h2>Khám phá</h2>
+                <ul class="list-unstyled mb-0">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index" asp-fragment="gioi-thieu">Giới thiệu</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index" asp-fragment="bo-suu-tap">Bộ sưu tập</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Chính sách</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-copyright">
+            <div class="bistup-shell">NetCore A7 · Giao diện theo mẫu Bistup của OS Templates</div>
+        </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
