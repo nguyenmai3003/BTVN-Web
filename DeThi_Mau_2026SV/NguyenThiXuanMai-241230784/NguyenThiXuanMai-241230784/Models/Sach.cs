@@ -15,5 +15,5 @@ public partial class Sach
 
     public string? Anh { get; set; }
 
-    public virtual TheLoai MaTLNavigation { get; set; } = null!;
+    public virtual TheLoai? MaTLNavigation { get; set; }
 }
