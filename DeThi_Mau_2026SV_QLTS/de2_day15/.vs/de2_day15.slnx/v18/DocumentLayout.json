@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\shared\\de2_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\shared\\de2_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\taisan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\taisan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\controllers\\taisancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\controllers\\taisancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\models\\qltaisancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\models\\qltaisancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\models\\qlnhasachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\models\\qlnhasachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\models\\taisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\models\\taisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\taisan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\taisan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\shared\\de2_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\shared\\de2_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\shared\\de2_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\shared\\de2_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\shared\\components\\loaitaisanmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\shared\\components\\loaitaisanmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\viewcomponents\\loaitaisanmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\viewcomponents\\loaitaisanmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\de2_day15.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\de2_day15.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\Template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|c:\\users\\admin\\desktop\\btvn2\\btvn-web\\dethi_mau_2026sv_qlts\\de2_day15\\de2_day15\\views\\shared\\de2_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC06846C-7253-4975-9725-476CEE06D3E5}|de2_day15\\de2_day15.csproj|solutionrelative:de2_day15\\views\\shared\\de2_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\TaiSan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\TaiSan\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\TaiSan\\Edit.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\TaiSan\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T14:08:20.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaiSan.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Models\\TaiSan.cs",
+              "RelativeDocumentMoniker": "de2_day15\\Models\\TaiSan.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Models\\TaiSan.cs",
+              "RelativeToolTip": "de2_day15\\Models\\TaiSan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T14:06:58.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\TaiSan\\Index.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\TaiSan\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\TaiSan\\Index.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\TaiSan\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T13:53:48.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaiSanController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Controllers\\TaiSanController.cs",
+              "RelativeDocumentMoniker": "de2_day15\\Controllers\\TaiSanController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Controllers\\TaiSanController.cs",
+              "RelativeToolTip": "de2_day15\\Controllers\\TaiSanController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T13:50:04.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLNhaSachContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Models\\QLNhaSachContext.cs",
+              "RelativeDocumentMoniker": "de2_day15\\Models\\QLNhaSachContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Models\\QLNhaSachContext.cs",
+              "RelativeToolTip": "de2_day15\\Models\\QLNhaSachContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T13:05:34.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "de2_MainContent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\de2_MainContent.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\Shared\\de2_MainContent.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\de2_MainContent.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\Shared\\de2_MainContent.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T13:10:16.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "de2_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\de2_Layout.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\Shared\\de2_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\de2_Layout.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\Shared\\de2_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T13:08:43.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QLTaiSanContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Models\\QLTaiSanContext.cs",
+              "RelativeDocumentMoniker": "de2_day15\\Models\\QLTaiSanContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Models\\QLTaiSanContext.cs",
+              "RelativeToolTip": "de2_day15\\Models\\QLTaiSanContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T13:26:06.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Program.cs",
+              "RelativeDocumentMoniker": "de2_day15\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Program.cs",
+              "RelativeToolTip": "de2_day15\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T13:13:44.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\Components\\LoaiTaiSanMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\Shared\\Components\\LoaiTaiSanMenu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\Components\\LoaiTaiSanMenu\\Default.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\Shared\\Components\\LoaiTaiSanMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T13:42:00.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoaiTaiSanMenuViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\ViewComponents\\LoaiTaiSanMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "de2_day15\\ViewComponents\\LoaiTaiSanMenuViewComponent.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\ViewComponents\\LoaiTaiSanMenuViewComponent.cs",
+              "RelativeToolTip": "de2_day15\\ViewComponents\\LoaiTaiSanMenuViewComponent.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T13:39:09.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "de2_day15",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\de2_day15.csproj",
+              "RelativeDocumentMoniker": "de2_day15\\de2_day15.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\de2_day15.csproj",
+              "RelativeToolTip": "de2_day15\\de2_day15.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-21T13:36:32.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T13:34:38.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "de2_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\de2_Header.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\Shared\\de2_Header.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\de2_Header.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\Shared\\de2_Header.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T13:09:55.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T13:33:38.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\appsettings.json",
+              "RelativeDocumentMoniker": "de2_day15\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\appsettings.json",
+              "RelativeToolTip": "de2_day15\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-21T13:12:17.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\Template\\index.html",
+              "RelativeDocumentMoniker": "..\\Template\\index.html",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\Template\\index.html",
+              "RelativeToolTip": "..\\Template\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-21T13:07:24.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "de2_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\de2_Footer.cshtml",
+              "RelativeDocumentMoniker": "de2_day15\\Views\\Shared\\de2_Footer.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV_QLTS\\de2_day15\\de2_day15\\Views\\Shared\\de2_Footer.cshtml",
+              "RelativeToolTip": "de2_day15\\Views\\Shared\\de2_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T13:10:26.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
