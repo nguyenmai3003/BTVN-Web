@@ -81,45 +81,6 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Create.cshtml",
-              "RelativeDocumentMoniker": "NguyenThiXuanMai-241230784\\Views\\Sach\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Create.cshtml",
-              "RelativeToolTip": "NguyenThiXuanMai-241230784\\Views\\Sach\\Create.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwCcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-20T14:52:48.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Sach.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Models\\Sach.cs",
-              "RelativeDocumentMoniker": "NguyenThiXuanMai-241230784\\Models\\Sach.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Models\\Sach.cs",
-              "RelativeToolTip": "NguyenThiXuanMai-241230784\\Models\\Sach.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T14:51:27.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
-              "RelativeDocumentMoniker": "NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
-              "RelativeToolTip": "NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-20T14:29:31.677Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
@@ -133,6 +94,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Create.cshtml",
+              "RelativeDocumentMoniker": "NguyenThiXuanMai-241230784\\Views\\Sach\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Create.cshtml",
+              "RelativeToolTip": "NguyenThiXuanMai-241230784\\Views\\Sach\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwCcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T14:52:48.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sach.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Models\\Sach.cs",
+              "RelativeDocumentMoniker": "NguyenThiXuanMai-241230784\\Models\\Sach.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Models\\Sach.cs",
+              "RelativeToolTip": "NguyenThiXuanMai-241230784\\Models\\Sach.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T14:51:27.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
+              "RelativeToolTip": "NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T14:29:31.677Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BTVN2\\BTVN-Web\\DeThi_Mau_2026SV\\NguyenThiXuanMai-241230784\\NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
@@ -141,8 +138,7 @@
               "RelativeToolTip": "NguyenThiXuanMai-241230784\\Views\\Sach\\Index.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAQwAsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-20T13:49:36.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-20T13:49:36.766Z"
             },
             {
               "$type": "Document",
@@ -154,8 +150,7 @@
               "RelativeToolTip": "NguyenThiXuanMai-241230784\\Controllers\\SachController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T13:43:32.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-20T13:43:32.149Z"
             },
             {
               "$type": "Document",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "NguyenThiXuanMai-241230784\\Views\\Shared\\NguyenThiXuanMai_Header.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-20T12:05:13.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-20T12:05:13.737Z"
             },
             {
               "$type": "Document",

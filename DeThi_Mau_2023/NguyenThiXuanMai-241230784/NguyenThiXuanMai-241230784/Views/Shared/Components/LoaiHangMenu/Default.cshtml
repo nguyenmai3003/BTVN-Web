@@ -1,0 +1,9 @@
+﻿@model IEnumerable<NguyenThiXuanMai_241230784.Models.LoaiHang>
+@foreach( var item in Model)
+{
+    <li>
+        <a href="#" class ="loai-hang" data-id="@item.MaLoai">
+            @item.TenLoai
+        </a>
+    </li>
+}
